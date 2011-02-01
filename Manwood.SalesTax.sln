@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2EC8D08-4031-403A-A383-E65AD3F3E904}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Manwood.SalesTax.vsmdi = Manwood.SalesTax.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manwood.SalesTax.Domain", "Manwood.SalesTax.Domain\Manwood.SalesTax.Domain.csproj", "{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manwood.SalesTax.Client", "Manwood.SalesTax.Console\Manwood.SalesTax.Client.csproj", "{206210A7-13CD-409B-AC34-8E16AB69C7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manwood.SalesTax.Tests", "Manwood.SalesTax.Tests\Manwood.SalesTax.Tests.csproj", "{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Manwood.SalesTax.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4FDA0807-40CD-42D4-A68D-595C08B8F6C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Debug|x86.ActiveCfg = Debug|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Debug|x86.Build.0 = Debug|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Release|Any CPU.ActiveCfg = Release|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Release|x86.ActiveCfg = Release|x86
+		{206210A7-13CD-409B-AC34-8E16AB69C7B1}.Release|x86.Build.0 = Release|x86
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{88D52F1E-3A5F-485B-9E5D-2B81092AC49A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
